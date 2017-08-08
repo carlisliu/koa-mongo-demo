@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 const config = {
     dbIp: '127.0.0.1',
     dbPort: 20217,
