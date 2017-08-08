@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('./mongo');
 
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
