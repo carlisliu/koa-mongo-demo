@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "bluebird": "^3.4.6",
+    "cls-hooked": "^4.2.2",
     "koa": "^2.2.0",
     "koa-body": "^1.6.0",
     "koa-router": "^7.1.1",
     "mongoose": "^4.6.8",
+    "shimmer": "^1.1.0",
     "tingyun": "^1.5.1"
   },
   "devDependencies": {
