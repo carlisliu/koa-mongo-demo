@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const config = {
     dbIp: '127.0.0.1',
-    dbPort: 20217,
+    dbPort: 27017,
     dbUser: 'root',
     dbPass: 'root',
     db: 'order'
@@ -17,7 +17,7 @@ if (config.dbUser == '') {
 
 mongoose.connect(uri);
 
-mongoose.Promise = bluebird;
+mongoose.Promise = global.Promise;
 
 const db = mongoose.connection;
 
