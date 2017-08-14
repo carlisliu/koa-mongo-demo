@@ -1,4 +1,5 @@
 require('tingyun');
+require('heapdump');
 
 const Koa = require('koa');
 const koaBody = require('koa-body');
