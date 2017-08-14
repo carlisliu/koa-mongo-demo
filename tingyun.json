@@ -1,5 +1,5 @@
 {
-  "agent_log_level": "debug",
+  "agent_log_level": "info",
   "app_name": [
     "koa-mongo-demo"
   ],
