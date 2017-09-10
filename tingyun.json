@@ -3,5 +3,6 @@
   "app_name": [
     "koa-mongo-demo"
   ],
-  "licenseKey": "999-999-999"
+  "licenseKey": "999-999-999",
+  "host": ""
 }
